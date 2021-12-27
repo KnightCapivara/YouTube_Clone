@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* html[data-theme=dark] {
+  --color-gray-darker: #262626;
+  --color-white-bis: #fafafa;
+} */
+
+body {
+  background-color: #ddd;
+}
+
+header, section {
+    padding: 5rem;
+}
+
+header {
+    background-color: #2196f3;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.video-player {
+    background-color: #ffeb3b;
+}
+
+.video-info {
+    background-color: #e91e63;
+}
+
+.actions {
+    background-color: #03a9f4;
+}
+
+.channel {
+    background-color: #673ab7;
+}
+
+.subscribe {
+    background-color: #8bc34a;
+}
+
+.ad {
+    background-color: #ff5722;
+}
+
+.up-next {
+    background-color: #3f51b5;
+}
