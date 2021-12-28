@@ -172,8 +172,13 @@ main {
 }
 
 .ad {
-    background-color: #ff5722;
     grid-area: ad;
+
+    margin: 1rem;
+    padding: 4rem;
+    text-align: center;
+    background-color: #2196f3;
+    color: white;
 }
 
 .up-next {
