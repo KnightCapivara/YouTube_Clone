@@ -26,6 +26,11 @@ header {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+    color: #222;
+}
+
 .logo img {
     width: 100px;
 }
@@ -161,6 +166,7 @@ main {
 
 .channel .channel-description {
     font-size: 00.8rem;
+    padding: auto auto;
 }
 
 .subscribe {
@@ -182,8 +188,34 @@ main {
 }
 
 .up-next {
-    background-color: #3f51b5;
     grid-area: up-next;
+
+    margin: 1rem;
+
+}
+
+ /* fr => fração */
+.up-next a {
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    grid-gap: 0.5rem;
+    padding-bottom: 0.75rem;
+}
+
+.up-next img {
+    width: 100%;
+}
+
+.up-next h4 {
+    margin: 0.25rem 0;
+    font-size: 0.9rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.up-next p {
+    color: #888;
+    font-size: 0.9rem;
 }
 
 @media screen and (max-width:700px) {
