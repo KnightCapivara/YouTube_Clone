@@ -81,13 +81,51 @@ main {
 }
 
 .video-info {
-    background-color: #e91e63;
     grid-area: video-info;
+
+    padding: 0 0 1rem 1rem;
+}
+
+.video-info h1 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.video-info .views {
+    color: #606060;
 }
 
 .actions {
-    background-color: #03a9f4;
     grid-area: actions;
+
+    border-bottom: 1px solid #ddd;
+    padding: 0 1 rem 0.5rem 1rem;
+    color: #636363;
+
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: space-evenly;
+    align-items: end;
+    grid-gap: 1rem;
+}
+
+.action {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 0.25rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+}
+.action:last-child {
+    grid-template-columns: auto;
+}
+
+.action svg {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
 }
 
 .channel {
