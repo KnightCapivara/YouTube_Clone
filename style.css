@@ -57,6 +57,7 @@ a {
     color: white;
     padding: 10px 16px;
     text-transform: uppercase;
+    font-size: 0.8rem;
 }
 
 main {
@@ -144,7 +145,7 @@ main {
 .channel {
     grid-area: channel;
 
-    padding: 1rem;
+    padding: 1rem 1rem;
     border-bottom: 1px solid #ddd;
 
     display: grid;
@@ -236,6 +237,11 @@ main {
         'video-player   video-player    ad'
         'video-player   video-player    up-next'
         'video-info     actions         up-next'
-        'channel        subscribe       up-next';
+        'channel        subscribe       up-next'
+        '.              .               up-next';
+    }
+
+    .video-info {
+        border-bottom: 1px solid #ddd;
     }
 }
